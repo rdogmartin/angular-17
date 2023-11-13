@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npm run cert & ng serve",
+    "start": "ng serve",
     "cert": "mkdir certificate & mkcert -cert-file ./certificate/cert.pem -key-file ./certificate/key.pem -ecdsa localhost 127.0.0.1 ::1",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
