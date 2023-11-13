@@ -13,5 +13,5 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "git.branchProtection": ["main", "develop", "releases", "release/*", "hotfix/*"]
+  "git.branchProtection": ["releases", "release/*", "hotfix/*"]
 }
