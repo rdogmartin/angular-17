@@ -1,0 +1,17 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.formatOnSave": true,
+  "html.format.wrapLineLength": 0,
+  "prettier.configPath": ".prettierrc",
+  "scss.validate": false,
+  "stylelint.validate": ["css", "scss"],
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.branchProtection": ["main", "develop", "releases", "release/*", "hotfix/*"]
+}
